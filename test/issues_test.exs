@@ -9,12 +9,4 @@ defmodule IssuesTest do
   test "the truth " do
     assert(true)
   end
-
-  test "Its floating" do
-    assert Issues.floating() == 3/4
-  end
-
-  test "div rounds the division" do
-    assert Issues.rounded() == 1
-  end
 end
